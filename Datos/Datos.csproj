@@ -41,8 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAOBImplApuesta.cs" />
     <Compile Include="DAOBImplJuego.cs" />
+    <Compile Include="DTOApuesta.cs" />
     <Compile Include="DTOJuego.cs" />
+    <Compile Include="IDAOApuesta.cs" />
     <Compile Include="IDAOJuego.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
