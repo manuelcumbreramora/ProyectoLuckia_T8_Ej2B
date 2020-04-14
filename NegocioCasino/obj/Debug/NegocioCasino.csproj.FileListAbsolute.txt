@@ -1,0 +1,6 @@
+C:\Users\david.crespopardo\Source\Repos\ProyectoLuckia_T8_Ej2B_DavidCrespo\NegocioCasino\bin\Debug\NegocioCasino.dll
+C:\Users\david.crespopardo\Source\Repos\ProyectoLuckia_T8_Ej2B_DavidCrespo\NegocioCasino\bin\Debug\NegocioCasino.pdb
+C:\Users\david.crespopardo\Source\Repos\ProyectoLuckia_T8_Ej2B_DavidCrespo\NegocioCasino\obj\Debug\NegocioCasino.csprojAssemblyReference.cache
+C:\Users\david.crespopardo\Source\Repos\ProyectoLuckia_T8_Ej2B_DavidCrespo\NegocioCasino\obj\Debug\NegocioCasino.csproj.CoreCompileInputs.cache
+C:\Users\david.crespopardo\Source\Repos\ProyectoLuckia_T8_Ej2B_DavidCrespo\NegocioCasino\obj\Debug\NegocioCasino.dll
+C:\Users\david.crespopardo\Source\Repos\ProyectoLuckia_T8_Ej2B_DavidCrespo\NegocioCasino\obj\Debug\NegocioCasino.pdb
