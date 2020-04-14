@@ -41,12 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DAOBImplApuesta.cs" />
-    <Compile Include="DAOBImplJuego.cs" />
-    <Compile Include="DTOApuesta.cs" />
-    <Compile Include="DTOJuego.cs" />
-    <Compile Include="IDAOApuesta.cs" />
-    <Compile Include="IDAOJuego.cs" />
+    <Compile Include="Apuesta\DAOBImplApuesta.cs" />
+    <Compile Include="Juego\DAOBImplJuego.cs" />
+    <Compile Include="Apuesta\DTOApuesta.cs" />
+    <Compile Include="Juego\DTOJuego.cs" />
+    <Compile Include="Apuesta\IDAOApuesta.cs" />
+    <Compile Include="Juego\IDAOJuego.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
