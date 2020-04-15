@@ -29,8 +29,9 @@ namespace NegocioCasino {
             return list;
         }
 
-        public static void CambiarEstadoJuego() {
-
+        public static void CambiarEstadoJuego(bool a, string n) {
+            DAOBImplJuego dao = new DAOBImplJuego();
+            dao.cambiarEstadoJuego(a, n);
         }
     }
 }

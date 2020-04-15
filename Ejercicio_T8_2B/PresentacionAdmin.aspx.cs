@@ -30,10 +30,18 @@ namespace Ejercicio_T8_2B {
 
         protected void Update_ActiveCheckbox() 
         {
+            System.Diagnostics.Debug.WriteLine("Updating");
             CheckBoxActivo.Checked = Juegos[ListaJuegos.SelectedItem.Text];
         }
 
         protected void ListaJuegos_SelectedIndexChanged(object sender, EventArgs e) {
+            System.Diagnostics.Debug.WriteLine("selected");
+            Update_ActiveCheckbox();
+        }
+
+        protected void CheckBoxActivo_CheckedChanged(object sender, EventArgs e) {
+            Juegos[ListaJuegos.SelectedItem.Text] = !Juegos[ListaJuegos.SelectedItem.Text];
+            RepositoryJuego.CambiarEstadoJuego( !CheckBoxActivo.Checked, ListaJuegos.SelectedItem.Text);
             Update_ActiveCheckbox();
         }
     }
