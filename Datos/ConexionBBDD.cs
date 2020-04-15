@@ -11,7 +11,7 @@ namespace Datos
     {
         public static SqlConnection obtenerConexion()
         {
-            return new SqlConnection("Data Source=plx300000000664\\sqlexpress;Initial Catalog=Tema8;Integrated Security=True");
+            return new SqlConnection("Data Source=PLX001351010353\\SQLEXPRESS;Initial Catalog=Tema8;Integrated Security=True");
         }
     }
 }
