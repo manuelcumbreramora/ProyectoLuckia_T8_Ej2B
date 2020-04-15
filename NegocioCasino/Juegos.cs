@@ -12,7 +12,7 @@ namespace NegocioCasino
         //Se instancia el propio juego con su resultado
         Infoticket infoticket;
         public int numGenerado, randNum;
-        float ganancia, cantidadApostada;
+        float ganancia;
         public int probRandom;
 
         public void generarInfoTicket(int idJugador, int tipoJuego, float cantidadApostada)

@@ -10,7 +10,7 @@ namespace Datos
     {
         public int id { get; set; }
         public string nombre { get; set; }
-        public float apuestaMinima { get; set; }
-        public int activo { get; set; }
+        public double apuestaMinima { get; set; }
+        public bool activo { get; set; }
     }
 }

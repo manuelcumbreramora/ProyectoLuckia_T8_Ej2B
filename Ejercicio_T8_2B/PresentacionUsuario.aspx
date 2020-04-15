@@ -13,9 +13,10 @@
 </head>
 <body style="height: 291px; width: 869px">
     <form id="form1" runat="server">
-        <div style="height: 185px">
-            <asp:Label ID="LabelSeleccion" runat="server" style="z-index: 1; left: 10px; top: 15px; position: absolute; width: 233px" Text="Seleccionar Juego:"></asp:Label>
-            <asp:ListBox ID="ListBoxJuegos" runat="server" OnSelectedIndexChanged="ListBoxJuegos_SelectedIndexChanged" style="z-index: 1; left: 13px; top: 43px; position: absolute; width: 192px"></asp:ListBox>
+        <div style="height: 256px">
+            <asp:Label ID="LabelSeleccion" runat="server" style="z-index: 1; left: 17px; top: 19px; position: absolute; width: 233px" Text="Seleccionar Juego:"></asp:Label>
+            <asp:DropDownList ID="DropDownJuego" runat="server" style="z-index: 1; left: 16px; top: 42px; position: absolute; height: 33px">
+            </asp:DropDownList>
         </div>
     </form>
 </body>

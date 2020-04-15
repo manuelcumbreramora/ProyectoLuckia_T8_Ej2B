@@ -9,15 +9,12 @@ using NegocioCasino;
 namespace Ejercicio_T8_2B {
     public partial class PresentacionUsuario : System.Web.UI.Page {
         protected void Page_Load(object sender, EventArgs e) {
+            if(DropDownJuego.Items.Count == 0)
             foreach (string s in RepositoryJuego.ObtenerJuegos(true) )
             {
-                ListBoxJuegos.Items.Add( s );
+                DropDownJuego.Items.Add( s );
             }
             
-        }
-
-        protected void ListBoxJuegos_SelectedIndexChanged(object sender, EventArgs e) {
-
         }
     }
 }

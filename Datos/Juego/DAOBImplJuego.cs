@@ -42,7 +42,7 @@ namespace Datos
                     connection.Open();
                     if (activo)
                     {
-                        comando = "SELECT * FROM Juego WHERE Activo = 1";
+                        comando = "SELECT * FROM dbo.Juego WHERE Activo = 1";
                         if (apuesta != 0)
                         {
                             comando = string.Format("SELECT * FROM Juego WHERE Activo = 1 AND ApuestaMinima >= {0}", apuesta);
@@ -67,8 +67,8 @@ namespace Datos
                             juego = new DTOJuego();
                             juego.id = reader.GetInt32(0);
                             juego.nombre = reader.GetString(1);
-                            juego.apuestaMinima = reader.GetFloat(2);
-                            juego.activo = reader.GetInt32(3);
+                            juego.apuestaMinima = reader.GetDouble(2);
+                            juego.activo = reader.GetBoolean(3);
                             juegos.Add(juego);
                         }
                     }
