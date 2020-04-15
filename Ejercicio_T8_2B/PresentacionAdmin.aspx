@@ -14,6 +14,7 @@
             </asp:DropDownList>
             <asp:CheckBox ID="CheckBoxActivo" runat="server" AutoPostBack ="true" style="z-index: 1; left: 158px; top: 64px; position: absolute" Text="Activo" OnCheckedChanged="CheckBoxActivo_CheckedChanged" />
         </div>
+        <asp:Button ID="btnCambiar" runat="server" OnClick="btnCambiar_Click" Text="Cambiar a usuario" />
     </form>
 </body>
 </html>

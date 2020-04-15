@@ -44,5 +44,10 @@ namespace Ejercicio_T8_2B {
             RepositoryJuego.CambiarEstadoJuego( !CheckBoxActivo.Checked, ListaJuegos.SelectedItem.Text);
             Update_ActiveCheckbox();
         }
+
+        protected void btnCambiar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("PresentacionUsuario.aspx");
+        }
     }
 }

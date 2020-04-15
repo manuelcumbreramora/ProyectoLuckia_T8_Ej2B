@@ -58,7 +58,7 @@
             </div>
         </div>
         <div style="text-align: justify;" class="auto-style3">
-            <asp:Button ID="btnCambiarAdmin" runat="server" Text="Pagina Admin" OnClick="btnCambiarAdmin_Click" />
+            <asp:Button ID="btnCambiarAdmin" runat="server" Text="Cambiar a admin" OnClick="btnCambiarAdmin_Click" />
             </div>
     </form>
 </body>
