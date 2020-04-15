@@ -10,7 +10,7 @@ namespace NegocioCasino
     {
         public JuegoRuleta()
         {
-            probRandom = 40;
+            probRandom = 41;
         }
     }
 }

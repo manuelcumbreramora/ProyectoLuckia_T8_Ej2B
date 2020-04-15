@@ -10,16 +10,14 @@ namespace NegocioCasino
     {
         //Cuando se instancia un juego se genera la informacion en generarInfoticket (que tiene que ser modificado cdc salga la ganancia)
         //Se instancia el propio juego con su resultado
-        Infoticket infoticket;
+        public Infoticket infoticket;
         public int numGenerado, randNum;
         float ganancia;
         public int probRandom;
 
         public void generarInfoTicket(int idJugador, int tipoJuego, float cantidadApostada)
         {
-            infoticket.idJugador = idJugador;
-            infoticket.tipoJuego = tipoJuego;
-            infoticket.cantidadApostada = cantidadApostada;
+            infoticket = new Infoticket(idJugador, tipoJuego, cantidadApostada);
         }
         public void jugar(int opcionJugador, float cantidadApostada, float cuota)
         {
