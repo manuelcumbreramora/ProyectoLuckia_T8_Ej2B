@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Datos
 {
-    class DAOBImplApuesta : IDAOApuesta
+    public class DAOBImplApuesta : IDAOApuesta
     {
         public bool guardaApuesta(DTOApuesta apuesta)
         {
-            using (SqlConnection connection = new SqlConnection("Data Source=PLX300000000664\\SQLEXPRESS;Initial Catalog=Tema8;Integrated Security=True"))
+            using (SqlConnection connection = ConexionBBDD.obtenerConexion())
             {
                 try
                 {

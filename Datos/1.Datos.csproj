@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Apuesta\DAOBImplApuesta.cs" />
+    <Compile Include="ConexionBBDD.cs" />
     <Compile Include="Juego\DAOBImplJuego.cs" />
     <Compile Include="Apuesta\DTOApuesta.cs" />
     <Compile Include="Juego\DTOJuego.cs" />

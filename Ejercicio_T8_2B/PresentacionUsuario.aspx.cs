@@ -49,14 +49,7 @@ namespace Ejercicio_T8_2B {
 
         }
 
-        protected void BTN_ApostarRuleta_Click(object sender, EventArgs e) {
-
-        }
-
         protected void DropDownJuego_SelectedIndexChanged(object sender, EventArgs e) {
-        }
-
-        protected void Button1_Click(object sender, EventArgs e) {
             System.Diagnostics.Debug.WriteLine("Seleccinado cambiar juego");
             switch (DropDownJuego.SelectedItem.Text)
             {
@@ -75,7 +68,6 @@ namespace Ejercicio_T8_2B {
                 default:
                     break;
             }
-
         }
     }
 }
