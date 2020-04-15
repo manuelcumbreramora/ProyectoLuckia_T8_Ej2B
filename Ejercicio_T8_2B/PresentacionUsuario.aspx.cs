@@ -19,16 +19,21 @@ namespace Ejercicio_T8_2B {
 
         protected void BTN_Jugar_Click(object sender, EventArgs e) {
             Juegos juego;
+            int limite = 0;
+            reiniciaLabl();
             switch (DropDownJuego.SelectedItem.Text)
             {
                 case "Ruleta":
                     juego = new JuegoRuleta();
+                    limite = 40;
                     break;
                 case "ParesNones":
                     juego = new JuegoParesNones();
+                    limite = 2;
                     break;
                 case "Cartas":
                    juego = new JuegoApuestaCarta();
+                    limite = 12;
                     break;
                 default:
                     juego = null;
@@ -36,14 +41,23 @@ namespace Ejercicio_T8_2B {
             }
             try
             {
-                juego.generarInfoTicket(1, 1, float.Parse(CantidadApostada.Text));
-                juego.jugar(Int32.Parse(OpcionApuesta.Text), juego.infoticket.cantidadApostada, 2);
-                ResultadoGanancia.Text = juego.infoticket.ganancia.ToString();
-                ResultadoJuego.Text = juego.numGenerado.ToString();
+                int numero = Int32.Parse(OpcionApuesta.Text);
+                if (numero > 0 && numero <= limite)
+                {
+                    juego.generarInfoTicket(1, 1, float.Parse(CantidadApostada.Text));
+                    juego.jugar(Int32.Parse(OpcionApuesta.Text), juego.infoticket.cantidadApostada, 2);
+                    ResultadoGanancia.Text = juego.infoticket.ganancia.ToString();
+                    ResultadoJuego.Text = juego.numGenerado.ToString();
+                }
+                else
+                {
+                    lblErrores.Text = string.Format("El numero seleccionado debe estar entre 1 y {0}",limite);
+                }
             }
             catch(FormatException ex)
             {
                 System.Diagnostics.Debug.WriteLine( ex.Message );
+                lblErrores.Text = "Debes rellenar los dos campos";
             }
             
 
@@ -51,6 +65,8 @@ namespace Ejercicio_T8_2B {
 
         protected void DropDownJuego_SelectedIndexChanged(object sender, EventArgs e) {
             System.Diagnostics.Debug.WriteLine("Seleccinado cambiar juego");
+            reiniciaLabl();
+            reiniciaText();
             switch (DropDownJuego.SelectedItem.Text)
             {
                 case "Ruleta":
@@ -68,6 +84,24 @@ namespace Ejercicio_T8_2B {
                 default:
                     break;
             }
+        }
+
+        private void reiniciaLabl()
+        {
+            lblErrores.Text = "";
+            ResultadoGanancia.Text = "";
+            ResultadoJuego.Text = "";
+        }
+
+        private void reiniciaText()
+        {
+            OpcionApuesta.Text = "";
+            CantidadApostada.Text = "";
+        }
+
+        protected void btnCambiarAdmin_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("PresentacionAdmin.aspx");
         }
     }
 }
