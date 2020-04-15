@@ -41,13 +41,21 @@ namespace Ejercicio_T8_2B {
             }
             try
             {
-                int numero = Int32.Parse(OpcionApuesta.Text);
-                if (numero > 0 && numero <= limite)
+                int opcionApuesta = Int32.Parse(OpcionApuesta.Text);
+                float cantidadApuesta = float.Parse(CantidadApostada.Text);
+                if (opcionApuesta > 0 && opcionApuesta <= limite)
                 {
-                    juego.generarInfoTicket(1, 1, float.Parse(CantidadApostada.Text));
-                    juego.jugar(Int32.Parse(OpcionApuesta.Text), juego.infoticket.cantidadApostada, 2);
-                    ResultadoGanancia.Text = juego.infoticket.ganancia.ToString();
-                    ResultadoJuego.Text = juego.numGenerado.ToString();
+                    if (cantidadApuesta <= 0)
+                    {
+                        lblErrores.Text = "Debe introducir una apuesta positiva";
+                    }
+                    else
+                    {
+                        juego.generarInfoTicket(1, 1, cantidadApuesta);
+                        juego.jugar(Int32.Parse(OpcionApuesta.Text), juego.infoticket.cantidadApostada, 2);
+                        ResultadoGanancia.Text = juego.infoticket.ganancia.ToString();
+                        ResultadoJuego.Text = juego.numGenerado.ToString();
+                    }
                 }
                 else
                 {
