@@ -6,14 +6,14 @@ namespace Datos
 {
     public class DAOBImplJuego : IDAOJuego
     {
-        public bool cambiarEstadoJuego(DTOJuego juego)
+        public bool cambiarEstadoJuego(bool _activo, string _nombreJuego)
         {
             using (SqlConnection connection = ConexionBBDD.obtenerConexion())
             {
                 try
                 {
                     connection.Open();
-                    SqlCommand command = new SqlCommand(String.Format("UPDATE Juego SET Activo ={0} WHERE ID = {1}; ",juego.activo,juego.id), connection);
+                    SqlCommand command = new SqlCommand(String.Format("UPDATE Juego SET Activo ={0} WHERE Nombre = '{1}'; ",_activo?1:0, _nombreJuego), connection);
                     SqlDataReader reader = command.ExecuteReader();
                     if (reader.HasRows)
                     {

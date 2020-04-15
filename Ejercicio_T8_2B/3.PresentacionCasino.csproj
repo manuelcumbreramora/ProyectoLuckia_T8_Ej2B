@@ -67,10 +67,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="PresentacionAdmin.aspx" />
     <Content Include="PresentacionUsuario.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PresentacionAdmin.aspx.cs">
+      <DependentUpon>PresentacionAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PresentacionAdmin.aspx.designer.cs">
+      <DependentUpon>PresentacionAdmin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PresentacionUsuario.aspx.cs">
       <DependentUpon>PresentacionUsuario.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -9,6 +9,6 @@ namespace Datos
     interface IDAOJuego
     {
         List<DTOJuego> listarJuegos(bool activo, float apuesta = 0);
-        bool cambiarEstadoJuego(DTOJuego juego);
+        bool cambiarEstadoJuego(bool activo, string nombreJuego);
     }
 }
