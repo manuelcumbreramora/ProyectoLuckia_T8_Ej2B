@@ -1,0 +1,6 @@
+C:\Users\jesus.changbuccheri\Documents\Formación Luckia\Ejercicios y Katas\Tema 8\ProyectoLuckia_T8_Ej2B\Datos\bin\Debug\Datos.dll
+C:\Users\jesus.changbuccheri\Documents\Formación Luckia\Ejercicios y Katas\Tema 8\ProyectoLuckia_T8_Ej2B\Datos\bin\Debug\Datos.pdb
+C:\Users\jesus.changbuccheri\Documents\Formación Luckia\Ejercicios y Katas\Tema 8\ProyectoLuckia_T8_Ej2B\Datos\obj\Debug\1.Datos.csprojAssemblyReference.cache
+C:\Users\jesus.changbuccheri\Documents\Formación Luckia\Ejercicios y Katas\Tema 8\ProyectoLuckia_T8_Ej2B\Datos\obj\Debug\1.Datos.csproj.CoreCompileInputs.cache
+C:\Users\jesus.changbuccheri\Documents\Formación Luckia\Ejercicios y Katas\Tema 8\ProyectoLuckia_T8_Ej2B\Datos\obj\Debug\Datos.dll
+C:\Users\jesus.changbuccheri\Documents\Formación Luckia\Ejercicios y Katas\Tema 8\ProyectoLuckia_T8_Ej2B\Datos\obj\Debug\Datos.pdb

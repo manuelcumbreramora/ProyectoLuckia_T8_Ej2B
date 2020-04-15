@@ -1,0 +1,9 @@
+C:\Users\jesus.changbuccheri\Documents\Formación Luckia\Ejercicios y Katas\Tema 8\ProyectoLuckia_T8_Ej2B\NegocioCasino\bin\Debug\NegocioCasino.dll
+C:\Users\jesus.changbuccheri\Documents\Formación Luckia\Ejercicios y Katas\Tema 8\ProyectoLuckia_T8_Ej2B\NegocioCasino\bin\Debug\NegocioCasino.pdb
+C:\Users\jesus.changbuccheri\Documents\Formación Luckia\Ejercicios y Katas\Tema 8\ProyectoLuckia_T8_Ej2B\NegocioCasino\bin\Debug\Datos.dll
+C:\Users\jesus.changbuccheri\Documents\Formación Luckia\Ejercicios y Katas\Tema 8\ProyectoLuckia_T8_Ej2B\NegocioCasino\bin\Debug\Datos.pdb
+C:\Users\jesus.changbuccheri\Documents\Formación Luckia\Ejercicios y Katas\Tema 8\ProyectoLuckia_T8_Ej2B\NegocioCasino\obj\Debug\2.NegocioCasino.csprojAssemblyReference.cache
+C:\Users\jesus.changbuccheri\Documents\Formación Luckia\Ejercicios y Katas\Tema 8\ProyectoLuckia_T8_Ej2B\NegocioCasino\obj\Debug\2.NegocioCasino.csproj.CoreCompileInputs.cache
+C:\Users\jesus.changbuccheri\Documents\Formación Luckia\Ejercicios y Katas\Tema 8\ProyectoLuckia_T8_Ej2B\NegocioCasino\obj\Debug\2.NegocioCasino.csproj.CopyComplete
+C:\Users\jesus.changbuccheri\Documents\Formación Luckia\Ejercicios y Katas\Tema 8\ProyectoLuckia_T8_Ej2B\NegocioCasino\obj\Debug\NegocioCasino.dll
+C:\Users\jesus.changbuccheri\Documents\Formación Luckia\Ejercicios y Katas\Tema 8\ProyectoLuckia_T8_Ej2B\NegocioCasino\obj\Debug\NegocioCasino.pdb

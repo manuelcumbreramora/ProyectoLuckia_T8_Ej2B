@@ -11,7 +11,7 @@ namespace Datos
     {
         public bool guardaApuesta(DTOApuesta apuesta)
         {
-            using (SqlConnection connection = new SqlConnection("Data Source=PLX001351010353\\SQLEXPRESS;Initial Catalog=Tema 8;Integrated Security=True"))
+            using (SqlConnection connection = new SqlConnection("Data Source=PLX300000000664\\SQLEXPRESS;Initial Catalog=Tema8;Integrated Security=True"))
             {
                 try
                 {
